@@ -1,8 +1,7 @@
 const express = require("express");
-const mongoose=require("mongoose")
-// mongodb+srv://learndsax1:123@cluster0.nh7e5g7.mongodb.net/
+const mongoose=require("mongoose");
 
- mongoose.connect("mongodb+srv://learndsax1:123@cluster0.nh7e5g7.mongodb.net/paytm")
+ mongoose.connect("")
 
 const UserSchema=new mongoose.Schema({
     username:{
